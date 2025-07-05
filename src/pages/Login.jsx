@@ -115,7 +115,7 @@ const Login = () => {
         title: "Account Created!",
         description: "Welcome to Smart Task Manager. You can now start finding loads.",
       });
-      navigate("/loads");
+      navigate("/tasks");
     }, 1000);
   };
 
