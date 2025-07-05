@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Truck, Mail, Lock, Phone, User, Eye, EyeOff, List } from "lucide-react";
+import { Mail, Lock, Phone, User, Eye, EyeOff, List } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const Login = () => {
@@ -61,7 +61,7 @@ const Login = () => {
       setIsLoading(false);
       toast({
         title: "Login Successful!",
-        description: "Welcome back to Uqaab",
+        description: "Welcome back to Smart Task Manager",
       });
       navigate("/tasks");
     }, 1000);
@@ -127,7 +127,7 @@ const Login = () => {
             <List className="h-8 w-8 text-blue-600 mr-2" />
             <span className="text-2xl font-bold text-slate-800">Smart Task Manager</span>
           </Link>
-          <p className="text-slate-600">Access your trucking dashboard</p>
+          <p className="text-slate-600">Access your tasks dashboard</p>
         </div>
 
         <Card className="shadow-2xl border-0">
